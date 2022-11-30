@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controleur\Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -23,7 +27,12 @@
 
   <ItemGroup>
     <Folder Include="Contenu\" />
-    <Folder Include="Controleur\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SpriteLibrary">
+      <HintPath>..\..\..\..\Sp\SpriteLibrary\bin\Debug\SpriteLibrary.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
