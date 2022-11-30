@@ -1,4 +1,4 @@
-﻿namespace ProjetResto
+﻿namespace ProjetResto.Controleur
 {
     partial class Form2
     {
@@ -34,12 +34,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(278, 256);
+            this.button1.Location = new System.Drawing.Point(300, 263);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 41);
+            this.button1.Size = new System.Drawing.Size(74, 40);
             this.button1.TabIndex = 0;
             this.button1.Text = "START";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -47,13 +48,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(666, 335);
+            this.ClientSize = new System.Drawing.Size(683, 333);
             this.Controls.Add(this.button1);
-            this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.DoubleBuffered = true;
             this.Name = "Form2";
-            this.Text = "ProjetResto Groupe 4";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.Text = "Form2";
             this.ResumeLayout(false);
 
         }

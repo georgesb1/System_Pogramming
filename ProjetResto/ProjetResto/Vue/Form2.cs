@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ProjetResto
+namespace ProjetResto.Controleur
 {
     public partial class Form2 : Form
     {
@@ -15,8 +15,11 @@ namespace ProjetResto
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            Form1 Form1 = new Form1();
+            Form1.Show();
+            this.Hide();
         }
     }
 }

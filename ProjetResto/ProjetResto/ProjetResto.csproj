@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controleur\" />
     <Folder Include="Contenu\" />
+    <Folder Include="Controleur\" />
   </ItemGroup>
 
 </Project>

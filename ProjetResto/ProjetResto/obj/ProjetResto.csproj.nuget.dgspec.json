@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enzo\\Desktop\\ProjetResto\\ProjetResto\\ProjetResto.csproj": {}
+    "C:\\Users\\enzo\\Desktop\\Projet\\System_Pogramming\\ProjetResto\\ProjetResto\\ProjetResto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enzo\\Desktop\\ProjetResto\\ProjetResto\\ProjetResto.csproj": {
+    "C:\\Users\\enzo\\Desktop\\Projet\\System_Pogramming\\ProjetResto\\ProjetResto\\ProjetResto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enzo\\Desktop\\ProjetResto\\ProjetResto\\ProjetResto.csproj",
+        "projectUniqueName": "C:\\Users\\enzo\\Desktop\\Projet\\System_Pogramming\\ProjetResto\\ProjetResto\\ProjetResto.csproj",
         "projectName": "ProjetResto",
-        "projectPath": "C:\\Users\\enzo\\Desktop\\ProjetResto\\ProjetResto\\ProjetResto.csproj",
+        "projectPath": "C:\\Users\\enzo\\Desktop\\Projet\\System_Pogramming\\ProjetResto\\ProjetResto\\ProjetResto.csproj",
         "packagesPath": "C:\\Users\\enzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enzo\\Desktop\\ProjetResto\\ProjetResto\\obj\\",
+        "outputPath": "C:\\Users\\enzo\\Desktop\\Projet\\System_Pogramming\\ProjetResto\\ProjetResto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
