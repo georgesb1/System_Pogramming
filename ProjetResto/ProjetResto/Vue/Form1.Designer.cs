@@ -29,39 +29,40 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Carré1 = new System.Windows.Forms.PictureBox();
+            this.Carré2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.Accueil = new System.Windows.Forms.PictureBox();
+            this.mh = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Carré1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Carré2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Accueil)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mh)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // Carré1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(23, 27);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(515, 326);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.Carré1.Image = ((System.Drawing.Image)(resources.GetObject("Carré1.Image")));
+            this.Carré1.Location = new System.Drawing.Point(23, 27);
+            this.Carré1.Name = "Carré1";
+            this.Carré1.Size = new System.Drawing.Size(515, 326);
+            this.Carré1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Carré1.TabIndex = 0;
+            this.Carré1.TabStop = false;
             // 
-            // pictureBox3
+            // Carré2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(534, 27);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(445, 326);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.Carré2.Image = ((System.Drawing.Image)(resources.GetObject("Carré2.Image")));
+            this.Carré2.Location = new System.Drawing.Point(534, 27);
+            this.Carré2.Name = "Carré2";
+            this.Carré2.Size = new System.Drawing.Size(445, 326);
+            this.Carré2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Carré2.TabIndex = 1;
+            this.Carré2.TabStop = false;
+            this.Carré2.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label1
             // 
@@ -95,25 +96,25 @@
             this.label2.Text = "CUISINE";
             this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pictureBox2
+            // Accueil
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(979, 27);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(196, 327);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.Accueil.Image = ((System.Drawing.Image)(resources.GetObject("Accueil.Image")));
+            this.Accueil.Location = new System.Drawing.Point(979, 27);
+            this.Accueil.Name = "Accueil";
+            this.Accueil.Size = new System.Drawing.Size(196, 327);
+            this.Accueil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Accueil.TabIndex = 4;
+            this.Accueil.TabStop = false;
+            this.Accueil.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox5
+            // mh
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(1038, 47);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(17, 15);
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.mh.Image = ((System.Drawing.Image)(resources.GetObject("mh.Image")));
+            this.mh.Location = new System.Drawing.Point(1038, 47);
+            this.mh.Name = "mh";
+            this.mh.Size = new System.Drawing.Size(17, 15);
+            this.mh.TabIndex = 5;
+            this.mh.TabStop = false;
             // 
             // Form1
             // 
@@ -123,21 +124,21 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1239, 749);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.mh);
+            this.Controls.Add(this.Accueil);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Carré2);
+            this.Controls.Add(this.Carré1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Name = "Form1";
             this.Text = "SALLE DE RESTAURATION";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Carré1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Carré2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Accueil)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mh)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,13 +146,13 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox Carré1;
+        private System.Windows.Forms.PictureBox Carré2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox Accueil;
+        private System.Windows.Forms.PictureBox mh;
     }
 }
 

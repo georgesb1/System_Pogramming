@@ -23,9 +23,7 @@
 
   <ItemGroup>
     <Folder Include="Controleur\" />
-    <Folder Include="Ressources\" />
-    <Folder Include="Vue\" />
-    <Folder Include="Modèle\" />
+    <Folder Include="Contenu\" />
   </ItemGroup>
 
 </Project>
