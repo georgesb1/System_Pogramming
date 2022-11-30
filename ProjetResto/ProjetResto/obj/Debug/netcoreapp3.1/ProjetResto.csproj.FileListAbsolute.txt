@@ -49,3 +49,8 @@ C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.dll
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.pdb
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.genruntimeconfig.cache
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\SpriteLibrary.dll
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\SpriteLibrary.pdb
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\SpriteLibrary.xml
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Form3.resources
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.CopyComplete

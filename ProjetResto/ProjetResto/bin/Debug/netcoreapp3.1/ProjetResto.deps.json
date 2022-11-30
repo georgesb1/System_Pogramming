@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "ProjetResto/1.0.0": {
+        "dependencies": {
+          "SpriteLibrary": "1.0.0.6"
+        },
         "runtime": {
           "ProjetResto.dll": {}
+        }
+      },
+      "SpriteLibrary/1.0.0.6": {
+        "runtime": {
+          "SpriteLibrary.dll": {
+            "assemblyVersion": "1.0.0.6",
+            "fileVersion": "1.0.0.6"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "ProjetResto/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpriteLibrary/1.0.0.6": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
