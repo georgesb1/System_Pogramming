@@ -7,16 +7,16 @@ namespace ProjetResto.Modèle
 {
     class Commissalle
     {
-        public int PosX { get; set; }
+        public int Position_X { get; set; }
 
-        public int PosY { get; set; }
+        public int Position_Y { get; set; }
 
         public Sprite Sprite { get; set; }
 
-        public Commissalle(int posX, int posY)
+        public Commissalle(int position_X, int position_Y)
         {
-            this.PosX = posX;
-            this.PosY = posY;
+            this.Position_X = position_X;
+            this.Position_Y = position_Y;
         }
     }
 }

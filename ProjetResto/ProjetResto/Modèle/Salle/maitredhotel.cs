@@ -8,16 +8,16 @@ namespace ProjetResto.Modèle
     class Maitredhotel
     {
 
-        public int PosX { get; set; }
+        public int Position_x { get; set; }
 
-        public int PosY { get; set; }
+        public int Position_y { get; set; }
 
         public Sprite Sprite { get; set; }
 
-        public Maitredhotel(int posX, int posY )
+        public Maitredhotel(int position_x, int position_y )
         {
-            this.PosX = posX;
-            this.PosY = posY;
+            this.Position_x = position_x;
+            this.Position_y = position_y;
         }
     }
 }
