@@ -35,6 +35,7 @@
             this.textNom = new System.Windows.Forms.TextBox();
             this.textContact = new System.Windows.Forms.TextBox();
             this.listPlace = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -108,6 +109,16 @@
             this.listPlace.Size = new System.Drawing.Size(202, 19);
             this.listPlace.TabIndex = 2;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(613, 357);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 33);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "SOUMETTRE";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -116,6 +127,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 431);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.listPlace);
             this.Controls.Add(this.textNom);
             this.Controls.Add(this.textContact);
@@ -138,5 +150,6 @@
         private System.Windows.Forms.TextBox textNom;
         private System.Windows.Forms.TextBox textContact;
         private System.Windows.Forms.ListBox listPlace;
+        private System.Windows.Forms.Button button1;
     }
 }

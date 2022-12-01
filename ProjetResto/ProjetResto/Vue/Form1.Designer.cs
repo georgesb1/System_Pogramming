@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Accueil = new System.Windows.Forms.PictureBox();
             this.mh = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Carré1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Carré2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -116,6 +117,16 @@
             this.mh.TabIndex = 5;
             this.mh.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(449, 402);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 47);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Réservation";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -123,6 +134,7 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1239, 749);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.mh);
             this.Controls.Add(this.Accueil);
@@ -153,6 +165,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox Accueil;
         private System.Windows.Forms.PictureBox mh;
+        private System.Windows.Forms.Button button1;
     }
 }
 

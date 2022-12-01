@@ -43,7 +43,6 @@ C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Form1.resources
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Controleur.Form2.resources
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.GenerateResource.cache
-C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.CoreCompileInputs.cache
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.AssemblyInfoInputs.cache
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.AssemblyInfo.cs
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.dll
@@ -54,3 +53,10 @@ C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\SpriteLibrary.xml
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Form3.resources
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.CopyComplete
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.CoreCompileInputs.cache
