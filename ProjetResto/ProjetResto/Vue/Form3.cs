@@ -43,7 +43,7 @@ namespace ProjetResto
             cnx.Open();
             String sql = "insert into Reservations(Nom, Contact, Nombre_personnes) values(" + textNom.Text + ",'" + textContact.Text + "'," + listPlace.Text + ")";
             SqlCommand cmd = new SqlCommand(sql, cnx);
-            //cmd.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();
             cnx.Close();
 
         }

@@ -42,5 +42,15 @@ namespace ProjetResto
             Form3 Form3 = new Form3();
             Form3.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
