@@ -1,4 +1,6 @@
-﻿namespace ProjetResto
+﻿using System;
+
+namespace ProjetResto
 {
     partial class Form1
     {
@@ -38,6 +40,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -50,7 +53,6 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Carré2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -101,6 +103,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label2
             // 
@@ -168,6 +171,16 @@
             this.groupBox1.Text = "Panneau";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(224, 118);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(74, 29);
+            this.textBox1.TabIndex = 10;
+            this.textBox1.Text = "00:00:00";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(398, 28);
@@ -204,6 +217,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(34, 36);
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
             // pictureBox5
             // 
@@ -225,6 +239,8 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(233, 595);
             this.pictureBox7.Name = "pictureBox7";
@@ -240,6 +256,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(34, 36);
             this.pictureBox8.TabIndex = 9;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
@@ -277,16 +294,6 @@
             this.pictureBox12.TabIndex = 9;
             this.pictureBox12.TabStop = false;
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(224, 118);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(74, 29);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.Text = "00:00:00";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
@@ -304,6 +311,7 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1239, 749);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox12);
@@ -313,7 +321,6 @@
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
@@ -347,6 +354,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

@@ -16,7 +16,7 @@ namespace ProjetResto.Modèle
             this.stock = new Stock();
         }
 
-
+        //Contact information for the kitchen clerk
         public Commiscuisine(int position_x, int position_y)
         {
             this.position_x = position_x;

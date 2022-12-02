@@ -9,6 +9,7 @@ namespace ProjetResto.Modèle
         public int position_x { get; set; }
         public int position_y { get; set; }
 
+        //Contact information for the cook
         public Cuisinier(int position_x, int position_y)
         {
             this.position_x = position_x;

@@ -11,7 +11,7 @@ namespace ProjetResto.Modèle
         public int position_y { get; set; }
         public Sprite sprite{ get; set; }
 
-
+        //diver's contact information
         public Plongeur(int position_x, int position_y)
         {
             this.position_x = position_x;
