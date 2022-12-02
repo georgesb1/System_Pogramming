@@ -177,7 +177,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(999, 41);
+            this.pictureBox1.Location = new System.Drawing.Point(1002, 39);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(34, 36);
             this.pictureBox1.TabIndex = 9;
@@ -213,7 +213,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(504, 63);
+            this.pictureBox6.Location = new System.Drawing.Point(1113, 163);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(34, 36);
             this.pictureBox6.TabIndex = 9;
@@ -280,17 +280,17 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1239, 749);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Accueil);
