@@ -60,3 +60,15 @@ C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\enzo\Desktop\Projet\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.CoreCompileInputs.cache
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.AssemblyReference.cache
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Properties.Resources.resources
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Form1.resources
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Controleur.Form2.resources
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.Form3.resources
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.GenerateResource.cache
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.AssemblyInfoInputs.cache
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.AssemblyInfo.cs
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.csproj.CoreCompileInputs.cache
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.dll
+C:\Users\ALPHA-Z\OneDrive\Desktop\System_Pogramming\ProjetResto\ProjetResto\obj\Debug\netcoreapp3.1\ProjetResto.pdb
